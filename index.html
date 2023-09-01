@@ -1,92 +1,29 @@
 <!DOCTYPE html>
-    <head>
-        <title>Countdown to A level Examinations</title>
-        <link rel="stylesheet" href="index.css">
-    </head>
-    <body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Countdown to A level Examinations</title>
+</head>
+<body>
+    <form id="subjectSelectionForm">
         <h2>Select Subjects:</h2>
-        <form id="subjectSelectionForm">
-            <!-- Checkboxes for subject selection will be dynamically inserted here -->
-            <label><input type="checkbox" name="subject" value="H2 Comp"> H2 Comp</label>
-            <label><input type="checkbox" name="subject" value="H2 Phy"> H2 Phy</label>
-            <label><input type="checkbox" name="subject" value="H2 Chem"> H2 Chem</label>
-            <label><input type="checkbox" name="subject" value="H2 Bio"> H2 Bio</label>
-            <label><input type="checkbox" name="subject" value="H2 Math"> H2 Math</label>
-            <label><input type="checkbox" name="subject" value="H2 Econs"> H2 Econs</label>
-            <label><input type="checkbox" name="subject" value="H2 FMath"> H2 FMath</label>
-
-            <label><input type="checkbox" name="subject" value="H1 GP"> H1 GP</label>
-            <label><input type="checkbox" name="subject" value="H1 Phy"> H1 Phy</label>
-            <label><input type="checkbox" name="subject" value="H1 Chem"> H1 Chem</label>
-            <label><input type="checkbox" name="subject" value="H1 Bio"> H1 Bio</label>
-            <label><input type="checkbox" name="subject" value="H1 Econs"> H1 Econs</label>
+        <!-- Checkboxes for subject selection will be dynamically inserted here -->
+        <div id="checkbox-container"></div>
+        <button id="hideFormButton" type="button">Hide Form</button>
 
 
+    </form>
+    <div class="iframe-container">
+        <!-- Iframes will be dynamically inserted here -->
+    </div>
+    
+    <div id="disclaimer">
+        <p>The information contained in this website was hand copied by a sleep deprived human. Please ensure to check the dates against your entry proof. We are not responsible for any damages or inconvinence caused by incorrect information contained on this webpage.</p>
+        <p>Are you a developer? Please feel free to <a href="https://github.com/Serial-Comma/alvl23countdown">contribute to the project.</a> <button id="hideDisclaimerButton" type="button">Hide Disclaimer</button></p>
+    </div>
 
-
-        </form>
-        <div class="iframe-container">
-            <!-- H2 Comp P2 -->
-            <iframe src="https://www.tickcounter.com/widget/countdown/4419898" frameborder="0" data-subject="H2 Comp"></iframe>
-            <!-- H2 Chem P4 -->
-            <iframe src="https://www.tickcounter.com/widget/countdown/4419939" frameborder="0" data-subject="H2 Chem"></iframe>
-            <!-- H2 Phy P4 -->
-            <iframe src="https://www.tickcounter.com/widget/countdown/4419942" frameborder="0" data-subject="H2 Phy"></iframe>
-            <!-- H2 Bio P4 -->
-            <iframe src="https://www.tickcounter.com/widget/countdown/4419945" frameborder="0" data-subject="H2 Bio"></iframe>
-            <!-- H1 GP P1 -->
-            <iframe src="https://www.tickcounter.com/widget/countdown/4419951" frameborder="0" data-subject="H1 GP"></iframe>
-            <!-- H1 GP P2 -->
-            <iframe src="https://www.tickcounter.com/widget/countdown/4419953" frameborder="0" data-subject="H1 GP"></iframe>
-            <!-- H2 Math P1 -->
-            <iframe src="https://www.tickcounter.com/widget/countdown/4419962" frameborder="0" data-subject="H2 Math"></iframe>
-            <!-- H1 Chem P2 -->
-            <iframe src="https://www.tickcounter.com/widget/countdown/4420122" frameborder="0" data-subject="H1 Chem"></iframe>
-            <!-- H2 Chem P2 -->
-            <iframe src="https://www.tickcounter.com/widget/countdown/4419966" frameborder="0" data-subject="H2 Chem"></iframe>
-            <!-- H2 Math P2 -->
-            <iframe src="https://www.tickcounter.com/widget/countdown/4419968" frameborder="0" data-subject="H2 Math"></iframe>
-            <!-- H2 Comp P1 -->
-            <iframe src="https://www.tickcounter.com/widget/countdown/4419971" frameborder="0" data-subject="H2 Comp"></iframe>
-            <!-- H2 Econs P1 -->
-            <iframe src="https://www.tickcounter.com/widget/countdown/4419978" frameborder="0" data-subject="H2 Econs"></iframe>
-            <!-- H1 Econs P1 -->
-            <iframe src="https://www.tickcounter.com/widget/countdown/4419980" frameborder="0" data-subject="H1 Econs"></iframe>
-            <!-- H2 Chem P3 -->
-            <iframe src="https://www.tickcounter.com/widget/countdown/4419990" frameborder="0" data-subject="H2 Chem"></iframe>
-            <!-- H2 Econs P2 -->
-            <iframe src="https://www.tickcounter.com/widget/countdown/4419993" frameborder="0" data-subject="H2 Econs"></iframe>
-            <!-- H2 FMath P1 -->
-            <iframe src="https://www.tickcounter.com/widget/countdown/4419997" frameborder="0" data-subject="H2 FMath"></iframe>
-            <!-- H2 Phy P2 -->
-            <iframe src="https://www.tickcounter.com/widget/countdown/4420006" frameborder="0" data-subject="H2 Phy"></iframe>
-            <!-- H1 Phy P2 -->
-            <iframe src="https://www.tickcounter.com/widget/countdown/4420008" frameborder="0" data-subject="H1 Phy"></iframe>
-            <!-- H1 Bio P2 -->
-            <iframe src="https://www.tickcounter.com/widget/countdown/4420079" frameborder="0" data-subject="H1 Bio"></iframe>
-            <!-- H2 Bio P2 -->
-            <iframe src="https://www.tickcounter.com/widget/countdown/4420080" frameborder="0" data-subject="H2 Bio"></iframe>
-            <!-- H2 Fmath P2 -->
-            <iframe src="https://www.tickcounter.com/widget/countdown/4420084" frameborder="0" data-subject="H2 FMath"></iframe>
-            <!-- H2 Phy P3 -->
-            <iframe src="https://www.tickcounter.com/widget/countdown/4420087" frameborder="0" data-subject="H2 Phy"></iframe>
-            <!-- H2 Bio P3 -->
-            <iframe src="https://www.tickcounter.com/widget/countdown/4420090" frameborder="0" data-subject="H2 Bio"></iframe>
-            <!-- H2 Chem P1 -->
-            <iframe src="https://www.tickcounter.com/widget/countdown/4420116" frameborder="0" data-subject="H2 Chem"></iframe>
-            <!-- H1 Chem P1 -->
-            <iframe src="https://www.tickcounter.com/widget/countdown/4420095" frameborder="0" data-subject="H1 Chem"></iframe>
-            <!-- H1 Phy P1 -->
-            <iframe src="https://www.tickcounter.com/widget/countdown/4420106" frameborder="0" data-subject="H1 Phy"></iframe>
-            <!-- H2 Phy P1 -->
-            <iframe src="https://www.tickcounter.com/widget/countdown/4420108" frameborder="0" data-subject="H2 Phy"></iframe>
-            <!-- H1 Bio P1 -->
-            <iframe src="https://www.tickcounter.com/widget/countdown/4420130" frameborder="0" data-subject="H1 Bio"></iframe>
-            <!-- H2 Bio P2 -->
-            <iframe src="https://www.tickcounter.com/widget/countdown/4420133" frameborder="0" data-subject="H2 Bio"></iframe>
-        </div>
-        <script src="js/script.js"></script>
-
-
-    </body>
-
+    <script src="js/script.js"></script>
+</body>
+</html>

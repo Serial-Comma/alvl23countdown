@@ -1,19 +1,83 @@
-body {
+/* Reset some default styles */
+body, h2 {
     margin: 0;
     padding: 0;
-    overflow-x: hidden; /* Hide horizontal scrollbar */
 }
 
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+h2 {
+    font-size: 24px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* Style the form container */
+#subjectSelectionForm {
+    text-align: center;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 600px;
+    background-color: #fff;
+    padding: 20px;
+    padding-top: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the checkboxes */
+.subject {
+    margin-bottom: 10px;
+}
+
+label {
+    margin-left: 10px;
+}
+
+/* Style the iframe container */
 .iframe-container {
+    text-align: center;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 800px;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the horizontal lines */
+hr {
+    border: none;
+    border-top: 1px solid #ccc;
+    margin: 20px 0;
+}
+
+/* Style the subject divs */
+.subject-div {
+    margin-bottom: 20px; /* Adjust as needed */
     display: flex;
     flex-wrap: wrap;
-    max-width: 100%;
-    overflow-y: auto; /* Enable vertical scrolling */
+    justify-content: center;
 }
 
-iframe { /* Iframe width fills the container */
-    border: none;
-    box-sizing: border-box;
-    padding: 10px; /* Optional padding around iframes */
-    margin: 5px; /* Optional margin between iframes */
+.subject-div iframe {
+    margin: 5px; /* Adjust as needed */
+    max-width: 100%;
+}
+
+/* Style for the disclaimer */
+#disclaimer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #f0f0f0; /* Background color for the disclaimer */
+    text-align: center; /* Center-align the text */
+    padding: 0px;  /* Add padding for better readability */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Add a box shadow for styling */
+    font-size: small;
+    color: grey;
+
 }
