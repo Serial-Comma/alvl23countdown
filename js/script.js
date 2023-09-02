@@ -15,7 +15,8 @@ var subjects =
         "https://www.tickcounter.com/widget/countdown/4419939",
         "https://www.tickcounter.com/widget/countdown/4419966",
         "https://www.tickcounter.com/widget/countdown/4419990",
-        "https://www.tickcounter.com/widget/countdown/4420116"
+        "https://www.tickcounter.com/widget/countdown/4420095"
+        
     ] },
     { name: "H2 Bio", urls: [
         "https://www.tickcounter.com/widget/countdown/4419945",
@@ -45,7 +46,7 @@ var subjects =
     ] },
     { name: "H1 Chem", urls: [
         "https://www.tickcounter.com/widget/countdown/4420122",
-        "https://www.tickcounter.com/widget/countdown/4420095"
+        "https://www.tickcounter.com/widget/countdown/4420116"
     ] },
     { name: "H1 Bio", urls: [
         "https://www.tickcounter.com/widget/countdown/4420079",
